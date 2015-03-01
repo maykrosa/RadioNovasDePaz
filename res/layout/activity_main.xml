@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="net.radionovasdepaz.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logonp" />
+
+    <ImageButton
+        android:id="@+id/imgbtnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/play" />
+
+    <TextView
+        android:id="@+id/txtLinkRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="linkRadio"
+        android:text="www.radionovasdepaz.net"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:textColor="#ccccff" />
+
+</LinearLayout>
